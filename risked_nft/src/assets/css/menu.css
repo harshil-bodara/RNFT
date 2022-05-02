@@ -1,0 +1,104 @@
+.mobile-menu-section {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #171928;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-menu-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.mobile-logo-img {
+    background-image: url(../images/mobile-logo.png);
+    width: 135px;
+    height: 36px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.mobile-menu-items {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.mobile-menu-ico {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.mobile-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu-item > div > span {
+    font-size: 14px;
+    color: #8997A9;
+}
+
+.news-count-section {
+    width: 38px;
+    height: 22px;
+    color: #8997A9;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202338;
+    border-radius: 6px;
+}
+
+.mobile-menu-hr-line {
+    width: calc(100% - 40px);
+    height: 1px;
+    background-color: #252C46;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mobile-subdetail {
+    height: calc(100vh - 328px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.mobile-menu-token {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.mobile-menu-bottom {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.lang-mobile {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}

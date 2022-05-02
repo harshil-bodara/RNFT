@@ -1,0 +1,481 @@
+.match-card {
+    width: 379px;
+    height: 339px;
+    background-image: url('../images/games/match-card-bg-min.png');
+    background-repeat: no-repeat;
+    background-color: #171928;
+    border-radius: 12px;
+    position: relative;
+    background-position: right top;
+    z-index: 10003;
+}
+
+.cs-icon-area {
+    background-image: url('../images/icons/cs-icon.svg');
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.custom-row {
+    width: 100% !important;
+    margin: 0px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top-row {
+    margin-top: 44px !important;
+}
+
+.match_card_map_name {
+    font-size: 14px;
+}
+
+.match_card_start_time {
+    font-size: 24px;
+}
+
+.match_price_value {
+    color: #FED262;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.match_card_staked_match {
+    width: 113px !important;
+    height: 22px;
+    background-color: #17ed6c60;
+    color: #17ed6c;
+    border-radius: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0px !important;
+    padding-top: 2px !important;
+}
+
+.time_row {
+    margin-top: 5px !important;
+}
+
+.staked_match_row {
+    margin-top: 10px !important;
+    justify-content: center;
+}
+
+.detail_row {
+    margin-top: 40px !important;
+    justify-content: space-around !important;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.match-card-line {
+    width: 1px;
+    height: 48px;
+    background-color: #252C46;
+}
+
+.detail-text-span {
+    color: #8997A9;
+}
+
+.detail-value-span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-bottom-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.fee-title {
+    font-size: 14px;
+    color: #8997A9;
+}
+
+.fee-value {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.fee-span {
+    text-align: left;
+}
+
+.more-btn-section {
+    width: 150px;
+    height: 52px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn-ico {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.gamer-card-section {
+    width: 321px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #171928;
+    border: solid 1px #171C2F;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.gamers-card-section .gamer-card-section:nth-child(odd) {
+    margin-top: 40px;
+}
+
+.game-icon-area {
+    position: relative;
+}
+
+.game-icon-sets01 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+.game-icon-sets02 {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+.gamer_section {
+    text-align: center;
+    margin-top: 61px;
+}
+
+.gamer-name-section {
+    margin-top: 29px;
+    padding-left: 20px;
+}
+
+.gamer-name-value {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.gamer-intro-value {
+    color: #8997A9;
+    font-size: 14px;
+}
+
+.gamer-intro {
+    padding: 20px;
+}
+
+.gamer-socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.youtubu-panel, .twitch-panel {
+    text-align: center;
+}
+
+.visitors-count {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.youtubu-name {
+    font-size: 14px;
+    color: #8997A9;
+}
+
+.top-leader-avatar {
+    position: relative;
+}
+
+.top-crown-img {
+    width: 65px;
+    height: 41px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.top-leader-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leader-nickname {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.leader-earning {
+    color: #8997A9;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.leader-ard {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.leader-detail {
+    margin-left: 20px;
+}
+
+.leader-table-section {
+    width: 1350px;
+    height: 90px;
+    border-radius: 12px;
+    margin-left: calc((100% - 1350px) / 2);
+    margin-top: 20px;
+    background-color: #191D2D;
+    border: solid 1px #171C2F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-col-ranking {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 10%;
+}
+
+.table-col-ranking > span {
+    color: #8997A9;
+}
+
+.table-col-leader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.leader-avatar {
+    width: 52px;
+    height: 52px;
+}
+
+.leader-nickname-sub {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.table-col-detail {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.table-col-result {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.sub-col-title {
+    color: #626F8C;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.sub-col-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.sub-col-detail {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.earning-value {
+    color: #FED262;
+}
+
+.game-table-card-section {
+    width: 100%;
+    height: 90px;
+    border-radius: 12px;
+    border: solid 1px #171C2F;
+    background-color: #191D2D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-game-table-card-section {
+    display: none;
+}
+
+.game-data-detail-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+
+.game-data-action-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+
+.game-data-avatars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.game-players-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.vs-section {
+    background-image: url(../images/games/VS.png);
+    width: 64px;
+    height: 39px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.player-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-data-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 100%;
+}
+
+.game-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-description span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.game-description span:last-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8997A9;
+}
+
+.player-invite-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 100%;
+}
+
+.invite-action {
+    width: 90px;
+    height: 52px;
+    border: solid 1px #8462FF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1660px) {
+    .invite-action {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .invite-action {
+        width: 50px;
+    }
+}
+
+.invite-action > span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.stream-action-section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stream-action {
+    width: 80%;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}

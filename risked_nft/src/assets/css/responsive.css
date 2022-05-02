@@ -1,0 +1,687 @@
+/*
+PC Responsive
+*/
+
+@media screen and (max-width: 1400px) {
+    .character-section {
+        width: 720px;
+        height: 500px;
+    }
+
+    .game-section-card {
+        width: 300px;
+    }
+
+    .match-card-section div.match-card:last-child {
+        display: none;
+    }
+
+    .main-effect {
+        width: 1408px;
+        height: 850.6px;
+        left: calc((100% - 1408px) / 2 + 100.5px);
+    }
+
+    .upcoming-games {
+        width: 950px;
+        margin-left: calc((100% - 950px) / 2);
+        margin-top: -50px;
+    }
+
+    .shadow-effect-img {
+        width: 950px;
+        left: calc((100% - 950px) / 2);
+    }
+
+    .gamers-card-section::-webkit-scrollbar {
+        width: 100vw;
+    }
+
+    .social-section-bg {
+        width: 950px;
+    }
+
+    .leader-table-section {
+        width: 950px;
+        margin-left: calc((100% - 950px) / 2);
+    }
+
+    .leaders-table-section div:nth-child(6) {
+        margin-left: calc((100% - 950px) / 2 + 10px);
+    }
+
+    .leaders-table-section div:nth-child(5) {
+        margin-left: calc((100% - 950px) / 2 + 10px);
+    }
+
+    .top-leaders-section {
+        max-width: 950px;
+        margin-left: calc((100% - 760px) / 2);
+    }
+
+    .leaders-table-section {
+        max-width: 950px;
+        margin-left: calc((100% - 950px) / 2);
+    }
+
+    .semi-circle {
+        width: 1400px;
+    }
+
+    .semi-circle > img {
+        width: 100%;
+    }
+
+    .semi-back {
+        width: 884.2px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .arcader-logo-img {
+        display: none;
+    }
+
+    .token-price-section {
+        display: none;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .header-section, .logo-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .game-logo-img {
+        width: 46.47px;
+        height: 42.06px;
+    }
+
+    .game-main-intro-span{
+        font-size: 30px;
+    }
+
+    .game-password-info {
+        font-size: 14px !important;
+        width: 323px !important;
+        padding: 0px !important;
+    }
+
+    .character-section {
+        background-image: url(../images/characters/mobile-group01-min.png);
+        width: 375px;
+        height: 333px;
+        background-size: cover;
+    }
+
+    .join-login-btn {
+        width: 282px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+        border-radius: 8px !important;
+    }
+
+    .main-effect {
+        width: 985.3px;
+        height: 595.3px;
+        left: calc((100% - 985.3px) / 2 + 80px);
+        top: 80px;
+    }
+
+    .upcoming-title-span {
+        font-size: 30px;
+    }
+
+    .upcoming-detail-span {
+        font-size: 14px;
+    }
+
+    .upcoming-games {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+    }
+
+    .game-section-card {
+        width: calc((100% - 24px) / 3 - 10px);
+        height: 88px;
+    }
+
+    .cs-game-section-card {
+        background-image: url(../images/games/mobile-cs-section-bg.png);
+    }
+
+    .co-game-section-card {
+        background-image: url(../images/games/mobile-co-section-bg.png);
+    }
+
+    .ft-game-section-card {
+        background-image: url(../images/games/mobile-ft-section-bg.png);
+    }
+
+    .match-cards div:nth-child(4) {
+        display: none;
+    }
+
+    .match-card-section div.match-card:last-child {
+        display: block;
+    }
+
+    .match-card-section {
+        flex-direction: column;
+    }
+
+    .match-card {
+        width: calc(100% - 24px);
+        margin-bottom: 10px;
+    }
+
+    .match-card-line {
+        display: block !important;
+    }
+
+    .brand-title {
+        font-size: 30px;
+    }
+
+    .brand-detail {
+        font-size: 14px;
+        width: 326px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .social-section-bg {
+        background-image: url(../images/effects/mobile-social-bg.png);
+        width: calc(100% - 12px);
+        height: 80px;
+    }
+
+    .socail-section-icon {
+        width: 18px;
+    }
+
+    .youtube-counts-text {
+        font-size: 20px;
+    }
+
+    .socail-sub-texts-l > span, .socail-sub-texts-r > span {
+        font-size: 12px;
+    }
+
+    .seeall-btn {
+        width: 282px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+    }
+
+    .leaderboard-title {
+        font-size: 30px;
+    }
+
+    .leaderboard-detail {
+        font-size: 14px;
+        width: 318px;
+    }
+
+    .top-leaders-section {
+        flex-direction: column;
+        max-width: unset;
+        width: calc(100% - 24px);
+        margin-left: 12px;
+    }
+
+    div.top-leader-section {
+        margin-bottom: 20px;
+    }
+
+    .top-leaders-section div.top-leader-section:nth-child(1) {
+        order: 2;
+        margin-left: 120px;
+    }
+
+    .top-leaders-section div.top-leader-section:nth-child(2) {
+        order: 1;
+        margin-right: 120px;
+    }
+
+    .top-leaders-section div.top-leader-section:nth-child(3) {
+        order: 3;
+        margin-right: 120px;
+    }
+
+    .leaders-table-section, .leader-table-section {
+        max-width: calc(100% - 24px);
+        margin-left: 12px;
+    }
+
+    .leader-table-section  {
+        height: 54px;
+    }
+
+    .leaders-table-section div:nth-child(5) {
+        margin-left: 22px;
+    }
+
+    .leaders-table-section div:nth-child(6) {
+        margin-left: 22px;
+    }
+
+    .about-effect {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+        margin-top: 120px;
+    }
+
+    .leader-effect {
+        top: -200px;
+    }
+
+    .sub-col-value {
+        font-size: 16px;
+    }
+
+    .sub-col-title {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .leader-nickname-sub {
+        font-size: 14px;
+    }
+
+    .about-detail {
+        font-size: 14px;
+        width: 340px;
+    }
+
+    .status-value {
+        font-size: 20px;
+    }
+
+    .about-status {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+    }
+
+    .footer-section {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+        height: 88px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .services span.services-text:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .links-section {
+        margin-left: 20px;
+    }
+
+    .login-modal-title {
+        font-size: 20px;
+    }
+
+    .input-label {
+        font-size: 12px;
+    }
+
+    .custom-input-section {
+        width: calc(100vw - 24px);
+        border-radius: 8px;
+    }
+
+    .login-btns {
+        width: calc(100vw - 24px);
+        height: 40px;
+        padding-top: 7px;
+        border-radius: 8px;
+    }
+
+    .hr-sep-line {
+        width: 80px !important;
+    }
+
+    .login-btns > span {
+        font-size: 14px;
+    }
+
+    .modal-dialog-centered {
+        width: 100vw !important;
+        min-width: 100vw !important;
+        margin: 0px;
+    }
+
+    .seperate-section {
+        width: 100%;
+    }
+
+    .social-login-btns-section > div {
+        width: calc(100vw - 24px) !important;
+        border-radius: 8px !important;
+        height: 40px !important;
+    }
+
+    .social-login-btns-section > div > span {
+        font-size: 14px !important;
+    }
+
+    .verify-codes {
+        justify-content: space-evenly;
+    }
+
+    .goto-signup-title {
+        font-size: 14px;
+    }
+
+    .step-bars {
+        display: none;
+    }
+
+    .verify-code {
+        width: 48px;
+        height: 70px;
+    }
+
+    .verify-sentence {
+        width: 250px;
+        margin-left: calc((100% - 250px) / 2);
+    }
+
+    .connect-wallet-btn {
+        width: 171px;
+    }
+
+    .modal-content, .modal-dialog-centered {
+        position: absolute !important;
+        left: 0px !important;
+        bottom: 0px !important;
+    }
+
+    .verify-sentence {
+        font-size: 14px;
+        width: 350px;
+        margin-left: calc((100% - 350px) / 2);
+    }
+
+    .gold-crown-effect {
+        width: 140px;
+        height: 88.29px;
+        right: -50px;
+        bottom: 20px;
+        background-size: contain;
+    }
+
+    .bronze-crown-effect {
+        width: 64px;
+        height: 40px;
+        background-size: contain;
+        left: -10px;
+        top: 50px;
+    }
+
+    .table-col-detail div.sub-col-detail:nth-child(2), .table-col-detail div.sub-col-detail:nth-child(3) {
+        display: none;
+    }
+
+    .leader-avatar {
+        width: 24px;
+        height: 24px;
+    }
+
+    .about-status {
+        flex-direction: column;
+    }
+
+    .about-status > div.about-total-section {
+        order: 2;
+    }
+
+    .about-status div.detail-about-section {
+        order: 1;
+    }
+
+    .detail-about-section > div.match-card-line {
+        display: none !important;
+    }
+
+    .about-status {
+        margin-top: 40px;
+    }
+
+    .btn-login {
+        width: 110px !important;
+        height: 40px !important;
+        font-size: 14px !important;
+    }
+
+    .semi-circle {
+        width: 990px;
+    }
+
+    .semi-back {
+        width: 619.4px;
+    }
+
+    .upcoming-games {
+        margin-top: 0px;
+    }
+
+    .game-section-card > img {
+        width: 45px;
+    }
+
+    .game-section-card > div > img {
+        width: 45px;
+    }
+
+    .game-section-card > span {
+        font-size: 12px;
+    }
+
+    .sidebar-section {
+        display: none;
+    }
+
+    .spec-data-section {
+        width: 100%;
+    }
+
+    .main-flag-custom {
+        display: none;
+    }
+
+    .mobile-my-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .mobile-menu img:first-child {
+        margin-right: 10px;
+    }
+
+    .mobile-my-info img:last-child {
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+    .spec-filter-section {
+        display: none;
+    }
+
+    .mobile-spec-filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 24px);
+        margin-top: 20px;
+    }
+
+    .mobile-sort-result {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 133px;
+    }
+
+    .mobile-sort-result span:first-child {
+        font-size: 14px;
+        color: #3D475F;
+    }
+
+    .mobile-sort-result span:last-child {
+        font-size: 14px;
+        color: #8997A9;
+    }
+
+    .main-header-section {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .main-header {
+        height: 70px;
+    }
+
+    .mobile-hr-line {
+        display: block;
+        margin-top: 20px;
+        width: calc(100% - 24px);
+        height: 1px;
+        background-color: #252C46;
+    }
+
+    .mobile-game-table-card-section {
+        display: flex;
+        width: 100%;
+        height: 264px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: solid 1px #171C2F;
+        background-color: #191D2D;
+        border-radius: 12px;
+        padding: 0px 20px;
+    }
+
+    .game-table-card-section {
+        display: none;
+    }
+
+    .table-header-logo {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .game-data-description {
+        width: unset;
+    }
+
+    .mobile-player-detail {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .player-section > img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .player-section > span {
+        font-size: 14px;
+    }
+
+    .player-invite-section {
+        width: 100%;
+        height: 40px;
+        justify-content: space-between;
+    }
+
+    .stream-action-section {
+        width: 100%;
+        height: 40px;
+    }
+
+    .invite-action {
+        width: 157px;
+        height: 40px;
+        border-radius: 8px;
+    }
+
+    .stream-action {
+        width: 100%;
+    }
+
+    .game-data-description div.game-description:first-child {
+        margin-right: 20px;
+    }
+
+    .game-description span:first-child {
+        font-size: 16px;
+    }
+
+    .game-description span:last-child {
+        font-size: 12px;
+    }
+
+    .invite-action > span {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .stream-action > span {
+        font-size: 14px;
+    }
+
+    .game-filter-select {
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .custom-option-section {
+        width: 100%;
+    }
+
+    .custom-selector {
+        width: 100%;
+    }
+
+    .custom-options-sections {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .custom-options-section {
+        position: absolute;
+        width: 100%;
+    }
+
+    .coupon-section {
+        width: 100%;
+    }
+}
