@@ -132,8 +132,6 @@ const Speculators = () => {
       },
     ];
     setGameData(_tempGames);
-
-    console.log("--------------")
   }, []);
 
   const handleClose = () => {

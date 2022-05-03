@@ -9,6 +9,7 @@ import MainMenu from '../layout/mainmenu'
 import Speculators from '../speculators/index'
 import Profile from '../profile/index'
 import ProfileEdit from '../profileedit/index'
+import News from '../news'
 
 const Routes = () => {
   console.log(123123)
@@ -22,6 +23,7 @@ const Routes = () => {
           <Route exact path='/speculators' component={Speculators} />
           <Route exact path='/myprofile' component={Profile} />
           <Route exact path='/profile-edit' component={ProfileEdit} />
+          <Route exact path='/news' component={News} />
         </Switch>
         <Coupon />
       </div>
