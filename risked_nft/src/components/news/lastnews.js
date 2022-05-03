@@ -44,9 +44,9 @@ const LastNews = ({ lastNews }) => {
                         modules={[Pagination, Navigation]}
                         className="mySwiper"
                     >
-                        {lastNews.map((index)=>{
+                        {lastNews.map((index,i)=>{
                             return(
-                            <SwiperSlide className="swiper-slide-wrap">
+                            <SwiperSlide className="swiper-slide-wrap" key={i}>
                                 <div className="swiper-content">
                                     <div className="swiper-card-detail"> 
                                         <p className="card-titles">{index.title}</p>

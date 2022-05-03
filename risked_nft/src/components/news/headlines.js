@@ -9,9 +9,9 @@ const Headlines = ({ headlines }) => {
             <div className="headline-section"> 
                 <h2>Headlines</h2>
                 <div className="row">
-                    {headlines.map((index)=>{
+                    {headlines.map((index,i)=>{
                         return(    
-                        <div className="col-xl-4 headline-main">
+                        <div className="col-xl-4 headline-main" key={i}>
                             <div className="headline-box mb-4">
                                 <img src={index.img} alt="headline" className="headlineImg" />
                                 <div className="head-content ms-3">
