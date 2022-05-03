@@ -5,8 +5,9 @@ import Home from './components/home/index'
 import Routes from './components/routes/routes.js'
 
 import { Provider } from 'react-redux'
-import store from './store'
+import store from './store';
 
+import "swiper/css/bundle";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/fonts/index.css'
 import './index.css'
@@ -29,3 +30,4 @@ function App() {
 }
 
 export default App;
+
