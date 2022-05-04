@@ -1,4 +1,5 @@
-import React, {Fragment, useState} from 'react'
+import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom';
 
 import MenuItem from '../items/menuitem'
 
@@ -47,18 +48,21 @@ const Sidebar = () => {
 
 				<div className='matches-section'>
 					<div className='match-title'>
-						<div className='sidebar-menu-item'>
-							<div>
-								<img src={IMG_MATHES} alt='leader-ico' className='mobile-menu-ico' />
-								<span>Matches</span>
+						<Link to="/matches">
+							<div className='sidebar-menu-item'>
+								<div>
+									<img src={IMG_MATHES} alt='leader-ico' className='mobile-menu-ico' />
+									<span>Matches</span>
+								</div>
 							</div>
-						</div>
+						</Link>
 					</div>
 					<div className='sidebar-game-items'>
 						<MenuItem ico={IMG_CS_ICO} state={0} title={'CS: GO'} counts={0} />
 						<MenuItem ico={IMG_FT_ICO} state={0} title={'Fortnite'} counts={0} />
 						<MenuItem ico={IMG_CO_ICO} state={0} title={'Call of Duty'} counts={0} />
 						<MenuItem ico={IMG_SP_ICO} state={0} title={'Speculators'} counts={0} />
+						<MenuItem ico={IMG_ML_ICO} state={0} title={'My NFTs'} counts={6} />
 						<MenuItem ico={IMG_ML_ICO} state={0} title={'My lives'} counts={2} />
 					</div>
 
@@ -69,7 +73,9 @@ const Sidebar = () => {
 						<MenuItem ico={IMG_STEAMING_ICO} state={0} title={'Streaming'} counts={3} />
 						<MenuItem ico={IMG_REFERAL_ICO} state={0} title={'Referal'} counts={0} />
 						<MenuItem ico={IMG_LEADER_ICO} state={0} title={'Leaderboard'} counts={0} />
-						<MenuItem ico={IMG_NEWS_ICO} state={0} title={'News'} counts={20} />
+						<Link to="/news">
+							<MenuItem ico={IMG_NEWS_ICO} state={0} title={'News'} counts={20} />
+						</Link>
 					</div>
 				</div>
 			</div>
