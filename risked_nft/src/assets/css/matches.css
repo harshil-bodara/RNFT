@@ -1,0 +1,36 @@
+.match-swiper{
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+}
+.match-swiper .swiper-card-detail{
+    background: #171928;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.match-swiper .swiper-card-detail{
+    background: #171928;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.match-swiper .swiper-card-detail{
+    background: #171928;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.match-swiper .swiper-card-detail .timing-main p{
+    font-weight: 600;
+    font-size: 14px;
+}
+.match-swiper .swiper-card-detail .timing-main span{
+    color: #626F8C;
+    font-weight: 600;
+    font-size: 12px;
+}
+/* match filter section */
+.match-filter-section .spec-filter-section,.match-filter-section{
+    width:100%;
+}

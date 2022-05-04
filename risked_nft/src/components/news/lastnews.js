@@ -47,8 +47,8 @@ const LastNews = ({ lastNews }) => {
                     >
                         {lastNews.map((item,i)=>{
                             return(
-                            <SwiperSlide className="swiper-slide-wrap">
-                                <Link to={`news/${item.id}`} key={i}>
+                            <SwiperSlide className="swiper-slide-wrap" key={i}>
+                                <Link to={`news/${item.id}`}>
                                     <div className="swiper-content">
                                         <div className="swiper-card-detail"> 
                                             <p className="card-titles">{item.title}</p>
