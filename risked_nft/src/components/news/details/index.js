@@ -21,7 +21,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -30,7 +30,7 @@ const News = () => {
                 label:"Fornite",
                 labelSec:"World",
                 labelTitle:"Derek Jeter is no longer part",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }
         ];
@@ -43,7 +43,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -52,7 +52,7 @@ const News = () => {
                 label:"Fornite",
                 labelSec:"World",
                 labelTitle:"Derek Jeter is no longer part",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }
         ];

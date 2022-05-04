@@ -26,7 +26,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -35,7 +35,7 @@ const News = () => {
                 label:"Arcader",
                 labelSec:"World",
                 labelTitle:"Joe Rogan mocked after chair",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -44,7 +44,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -53,7 +53,7 @@ const News = () => {
                 label:"Fornite",
                 labelSec:"World",
                 labelTitle:"Derek Jeter is no longer part",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -62,7 +62,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }, {
                 id:6,
@@ -70,7 +70,7 @@ const News = () => {
                 label:"CS:go",
                 labelSec:"World",
                 labelTitle:"Harlem drug kingpin Alpo Martinez was shot dead",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }
         ]
@@ -83,7 +83,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -92,7 +92,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -101,7 +101,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -110,7 +110,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             },
             {
@@ -119,7 +119,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }, 
             {
@@ -128,7 +128,7 @@ const News = () => {
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
                 labelSec:"World",
-                time:"23:00, 16 APR",
+                time:"23:00, 16 $RNFT",
                 timeCount:"23"
             }
         ]

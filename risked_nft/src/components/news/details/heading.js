@@ -22,7 +22,7 @@ const NewsDetails = () => {
                     <h4 className="my-4">No bail for Las Vegas man accused of murdering 4-year-old boy found in freezer</h4>
                     <div className="social-sect">
                         <div className="time-sect">
-                            <span>23:00, 16 APR</span>
+                            <span>23:00, 16 $RNFT</span>
                             <p className="mb-0 ms-3"><img src={Shape} alt="shape" className="me-2"/>23</p>
                         </div>
                         <div>
