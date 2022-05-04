@@ -21,6 +21,7 @@ const News = () => {
 
         const _headlines=[
             {
+                id:1,
                 img:Headline,
                 label:"CS:go",
                 labelSec:"World",
@@ -29,6 +30,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:2,
                 img:Headline1,
                 label:"Arcader",
                 labelSec:"World",
@@ -37,6 +39,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:3,
                 img:Headline2,
                 label:"CS:go",
                 labelSec:"World",
@@ -45,6 +48,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:4,
                 img:Headline3,
                 label:"Fornite",
                 labelSec:"World",
@@ -53,6 +57,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:5,
                 img:Headline4,
                 label:"CS:go",
                 labelSec:"World",
@@ -60,6 +65,7 @@ const News = () => {
                 time:"23:00, 16 APR",
                 timeCount:"23"
             }, {
+                id:6,
                 img:Headline5,
                 label:"CS:go",
                 labelSec:"World",
@@ -72,6 +78,7 @@ const News = () => {
 
         const _lastnews = [
             {
+                id:1,
                 title:"Harlem drug kingpin Alpo Martinez was shot dead",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
@@ -80,6 +87,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:2,
                 title:"Derek Jeter is no longer part of the Marlins organization",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
@@ -88,6 +96,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:3,
                 title:"Man fatally shoots his 3 kids, then himself inside Sacramento church",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
@@ -96,6 +105,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:4,
                 title:"Driver, passenger killed after speeding BMW veers off Henry...",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
@@ -104,6 +114,7 @@ const News = () => {
                 timeCount:"23"
             },
             {
+                id:5,
                 title:"Harlem drug kingpin Alpo Martinez was shot dead",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
@@ -112,6 +123,7 @@ const News = () => {
                 timeCount:"23"
             }, 
             {
+                id:6,
                 title:"Harlem drug kingpin Alpo Martinez was shot dead",
                 detail:"Create a password with at least 6 characters. Only Latin letters, numbers and general...",
                 label:"CS:go",
