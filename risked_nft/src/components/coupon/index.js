@@ -136,7 +136,7 @@ const Coupon = ({couponMenuSet, showCouponMenu}) => {
                             <span>Amount</span>
                             <div className='ard-input'>
                                 <input type='text' placeholder='Input amount' value={ardAmount} onChange={(e) => setArdamount(e.target.value)} className='custom-input' autoComplete='off' />
-                                <span>$ARD</span>
+                                <span>$RNFT</span>
                             </div>
                             <div className='number-btns'>
                                 <div className='number-input-btn'>1</div>
@@ -158,7 +158,7 @@ const Coupon = ({couponMenuSet, showCouponMenu}) => {
                             <div className='btn-confirm'>Confirm</div>
                         </div>
                         <div className='confirm-result-section'>
-                            <div>Possible win: <span>$ARD 124</span></div>
+                            <div>Possible win: <span>$RNFT 124</span></div>
                         </div>
                     </div>
                 :   

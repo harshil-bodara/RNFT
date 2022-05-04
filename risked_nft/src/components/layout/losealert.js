@@ -19,7 +19,7 @@ const LoseAlert = ({modalShow, handleClose}) => {
                         <div className='winner-detail-bg'>
                             <div>
                                 <span>de_dust2</span>
-                                <span>$ARD 2,023</span>
+                                <span>$RNFT 2,023</span>
                             </div>
                             <div>
                                 <span>06:00 PM, 23 FEB</span>

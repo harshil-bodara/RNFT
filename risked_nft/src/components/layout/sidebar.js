@@ -35,7 +35,7 @@ const Sidebar = () => {
 					</div>
 					<div className='my-archieve'>
 						<div className='archieve'>
-							<span>$ARD 2,023</span>
+							<span>$RNFT 2,023</span>
 							<span>Total earnings</span>
 						</div>
 						<div className='match-card-line'></div>

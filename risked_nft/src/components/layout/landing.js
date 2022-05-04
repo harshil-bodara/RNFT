@@ -424,7 +424,7 @@ const Landing = ({ signinModalSet, showSigninModal }) => {
           <div className="about-status">
             <div className="about-total-section">
               <div className="sub-status">
-                <div className="status-value">$ARD 2,023,351</div>
+                <div className="status-value">$RNFT 2,023,351</div>
                 <div className="status-title">Total earnings</div>
               </div>
             </div>

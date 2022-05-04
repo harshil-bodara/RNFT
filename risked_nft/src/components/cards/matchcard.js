@@ -71,7 +71,7 @@ const Matchcard = ({
         <div className="custom-row card-bottom-row">
           <div className="fee-span">
             <span className="fee-title">
-              Entrance fee:<span className="fee-value">&nbsp;$ARD 50</span>
+              Entrance fee:<span className="fee-value">&nbsp;$RNFT 50</span>
             </span>
           </div>
           <div className="more-btn-section">

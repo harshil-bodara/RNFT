@@ -28,7 +28,7 @@ const TopLeaderCard = ({ranking, avatar, nickname, ardamount}) => {
 
                 <div className='leader-detail'>
                     <div className='row leader-nickname'>{nickname ? nickname : ''}</div>
-                    <div className='row leader-ard'>$ARD&nbsp;{ardamount ? ardamount : ''}</div>
+                    <div className='row leader-ard'>$RNFT&nbsp;{ardamount ? ardamount : ''}</div>
                     <div className='row leader-earning'>Earning</div>
                 </div>
             </div>

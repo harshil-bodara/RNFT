@@ -18,7 +18,7 @@ const LeaderTaleCard = ({ranking, avatar, nickname, profitability, avg_bet, max_
                     </div>
                     <div className='sub-col-detail'>
                         <div className='sub-col-title'>Average bet size</div>
-                        <div className='sub-col-value'>$ARD &nbsp;{avg_bet ? avg_bet : ''}</div>
+                        <div className='sub-col-value'>$RNFT &nbsp;{avg_bet ? avg_bet : ''}</div>
                     </div>
                     <div className='sub-col-detail'>
                         <div className='sub-col-title'>Max bet size</div>

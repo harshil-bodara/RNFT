@@ -16,11 +16,11 @@ const Profile = () => {
       avatar: "my-avatar.png",
       regDate: "22.01.2022",
       country: "en",
-      totalEarning: "$ARD 2,023",
-      totalLose: "$ARD 2,023",
+      totalEarning: "$RNFT 2,023",
+      totalLose: "$RNFT 2,023",
       accuracy: "56.1%",
-      avgBetsize: "$ARD 2,023",
-      maxBetsize: "$ARD 3,761",
+      avgBetsize: "$RNFT 2,023",
+      maxBetsize: "$RNFT 3,761",
     };
     setProfileData(_profileData);
   }, []);
