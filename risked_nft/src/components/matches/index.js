@@ -3,6 +3,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import MatchFilter from "./filter";
 import MatchList from "./matchlist";
 import MatchSwiper from "./swiper";
+import FooterPagination from "../layout/footerPagination";
+import Footer from "../layout/footer";
 
 import "../../assets/css/matches.css";
 import csGo from "../../assets/images/matches/csGo.png";
@@ -12,6 +14,7 @@ import callDuty from "../../assets/images/matches/callDuty.png";
 const Matches = () => {
 
   const [matchLists,setMatchLists] = useState([]);
+  const [matches,setMatches] = useState([]);
  
   useEffect(() => {
     const _matchlists = [
@@ -89,15 +92,103 @@ const Matches = () => {
       }
     ]
     setMatchLists(_matchlists)
+
+    const _matches =[
+      {
+        img:csGo,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"Staked match",
+        prize:"$RNFT 2,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:callDuty,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"UnStaked match",
+        prize:"$RNFT 2,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 500"
+      },
+      {
+        img:Fortnite,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"UnStaked match",
+        prize:"$RNFT 10,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:csGo,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"Staked match",
+        prize:"$RNFT 2,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:csGo,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"Staked match",
+        prize:"$RNFT 2,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:callDuty,
+        title:"de_dust2",
+        time:"06:00 PM, 23 FEB",
+        titleLabel:"UnStaked match",
+        prize:"$RNFT 10,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:Fortnite,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"UnStaked match",
+        prize:"$RNFT 10,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      },
+      {
+        img:csGo,
+        title:"de_dust2",
+        time:"11:00 AM, 16 APR",
+        titleLabel:"Staked match",
+        prize:"$RNFT 2,023",
+        players:"12 / 18",
+        type:"2x2",
+        fee:"$RNFT 50"
+      }
+    ]
+    setMatches(_matches);
   },[]);
 
   return (
     <Fragment>
       <div className="spec-data-section">
         <MatchSwiper matchLists={matchLists}/>
-        <div className="spec-game-data-section">
+        <div className="spec-game-data-section match-spec-game-sect">
           <MatchFilter />
-          <MatchList />
+          <MatchList matches={matches}/>
+          <div className="match-footer-pagination w-100">
+            <FooterPagination/>
+            <Footer/>
+          </div>
         </div>
       </div>
     </Fragment>
