@@ -14,9 +14,29 @@ const MatchSwiper = ({matchLists}) => {
       <div className="match-swiper">
         <div>
           <Swiper
-            slidesPerView={4}
-            spaceBetween={30}
+            slidesPerView={7.5}
+            spaceBetween={12}
             slidesPerGroup={3}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+              },
+              375: {
+                slidesPerView: 1.5,
+              },
+              640: {
+                slidesPerView: 2,
+              },
+              800: {
+                slidesPerView: 3,
+              },
+              1400: {
+                slidesPerView: 5,
+              },
+              1799: {
+                slidesPerView: 7.5,
+              },
+            }}
             loop={true}
             loopFillGroupWithBlank={true}
             pagination={{
