@@ -17,7 +17,7 @@ const MobilelastnewsDetail = () => {
                 <p className="mb-4 mt-2">A Las Vegas man accused of holding a woman hostage, murdering her 4-year-old son and keeping his remains in the garage freezer will
                 remain behind bars for at least a month.
                 A judge has ordered Brandon Toseland to be held without bail until his next court appearance in
-                early $RNFTil and new charges of felony child abuse and neglect were added Monday on top of the existing charges of open murder
+                early April and new charges of felony child abuse and neglect were added Monday on top of the existing charges of open murder
                 and kidnapping.</p>
                 <p className="mb-4 mt-2">Toseland, 35, was arrested last week after the 7-year-old daughter of his alleged victim handed a pile of sticky notes to her elementary
                 school teacher from her mother, claiming she was being held hostage and hadn’t seen her 4-year-old son, Mason Dominguez, in months.</p>
